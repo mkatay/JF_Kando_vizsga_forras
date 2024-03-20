@@ -5,7 +5,8 @@
 Egy ingatlanok értékesítésével foglalkozó vállalkozás weboldalát kellene befejezni, az alábbi követelmények szerint:
 
 - A félig kész weboldal egy  React – Vite projekt, **pnpm** csomagkezelővel létrehozva
-- A félig kész projektet innen kell klónozd le a saját gépre egy üres munkakönyvtárba
+- A félig kész projektet innen kell klónozni saját gépre egy üres munkakönyvtárba: [link](https://github.com/mkatay/JF_Kando_vizsga_forras.git)
+
 - A projekt tartalmaz pár automata tesztesetet is, melyek a Vitest keretrendszerrel vannak megvalósítva. A test mappa alatt találhatóak és ezeket nem kell/nem szabad módosítani.
 A sikeres megoldás esetén minden teszt helyesen le fog futni.A tesztesetek futtatása:
     > pnpm run test
@@ -55,12 +56,12 @@ A **SinglePropertie** komponensben megjelenítendő az ingatlan minden egyes ada
 ![menü](src/assets/navbar.jpg)
 
 A **Contact.jsx** komponenst az alábbiakat sfigyelembe véve kell megvalósítani:
-
+- tartalmazzon címsort a minta szerint
 - tartalmazzon egy űrlapot a minta szerint
 - legyen egy  **email** típusú mezője, melyben egy email címet lehessen megadni
 - legyen egy **textarea** mező, melyben egy többsoros szöveget lehessen megadni
 - legyen egy **submit** típusú gomb (button), **Küldés** felírattal
-- A „Submit” gomb segítségével el kell tárolni a felhasználó által beírt adatokat egy objektumba
+- A „Küldés” gomb segítségével el kell tárolni a felhasználó által beírt adatokat egy objektumba
 - Az űrlapot nem szükséges validálni, feldolgozni
 - a **Küldés** gombra való kattintáskor, a submit esmény bekövetkeztekor az űrlapadatokat el kell tárolni egy olyan objektumba,  melynek van  **email**, **message** és **timestamp** attribútuma, a timestamp értéke legyen az aktuális időbélyeg
 - az így létrehozott objektumot jelenítse meg a konzolban
@@ -69,7 +70,8 @@ A **Contact.jsx** komponenst az alábbiakat sfigyelembe véve kell megvalósíta
 ![form](src/assets/contact2.jpg)
 
 
-### 5.feladat- verziókezelés, GitHub repository létrehozása
+### 4.feladat- verziókezelés, GitHub repository létrehozása
 
-### 6.feladat- publikálás
-
+### 5.feladat- publikálás
+ 
+### 6.feladat - tiszta kód elvének a betartása
