@@ -30,7 +30,7 @@ A sikeres megoldás esetén minden teszt helyesen le fog futni.A tesztesetek fut
   - a header magassága legyen a viewport magasságának 40%-a és hátérképnek állítsa be a **public** mappa alatt található **background.png** -t
   - a main tartalmazzon egy **négyes szintű címsort** a minta szerint és a három különböző ingatlan kategóriát szemléltetve egy-egy képpel. A képek amiket meg kell jelenítenie a **public** mappában vannak és a következőek:
       - a ház kategóriához a  **haz.jpg**
-      - a lakás kategóriához a **lakas.jpg**
+      - a lakás kategóriához a **panel.jpg**
       - a nyaraló kategóriához a  **nyaralo.jpg**
   - a footer elemben levő bekezdés tartalma a minta szerinti szöveget tartalmazza
   - a főoldal formázásához használhatja a bootstrap keretrendszert is de nem kötelező
